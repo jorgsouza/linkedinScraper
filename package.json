@@ -1,0 +1,16 @@
+{
+  "name": "linkedinScraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jorge Souza",
+  "license": "MIT",
+  "dependencies": {
+    "linkedin-company-profile-scraper": "^1.0.1",
+    "linkedin-profile-company-scraper": "^1.0.1",
+    "linkedin-profile-scraper": "^2.3.1"
+  },
+  "scripts": {
+    "profile": "node ./linkedinScraper.js",
+    "company": "node ./linkedinCompanyScraper.js"
+  }
+}
